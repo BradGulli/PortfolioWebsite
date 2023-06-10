@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/navbar'
 import { SocialIcon } from 'react-social-icons'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Brad Gulli',
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body className='flex flex-col min-h-screen bg-slate-700'>
         <header className='text-gray-950 text-center flex justify-center items-center mt-10 text-8xl mb-10 font-noto font-semibold'>
         <div className="flex -space-x-1 ">
-        <img
+        <Image
           className="inline-block h-64 w-64 rounded-full ring-4 ring-white ml-4"
           src="https://i.ibb.co/cN7kDqw/IMG-1255.jpg"
           alt=""

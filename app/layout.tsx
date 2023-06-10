@@ -21,8 +21,10 @@ export default function RootLayout({
         <div className="flex -space-x-1 ">
         <Image
           className="inline-block h-64 w-64 rounded-full ring-4 ring-white ml-4"
-          src="https://i.ibb.co/cN7kDqw/IMG-1255.jpg"
+          src="/IMG_1255.jpg"
           alt=""
+          width={256}
+          height={256}
         />
         </div>
         </header> 

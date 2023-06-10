@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        noto: ['Noto Sans', 'sans-serif']
+        noto: ['Noto Sans', 'sans-serif'],
+        merriweather: ['Merriweather', 'serif'],
       }
     },
     

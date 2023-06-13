@@ -1,8 +1,11 @@
 import './globals.css'
+import React from 'react'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/navbar'
 import { SocialIcon } from 'react-social-icons'
 import Image from 'next/image'
+import navigation from 'next/navigation'
+import { AnimationContextProvider } from './context/animation'
 
 export const metadata = {
   title: 'Brad Gulli',
@@ -34,7 +37,9 @@ export default function RootLayout({
           <SocialIcon url='https://www.linkedin.com/in/bradley-gulli/' target='_blank'/>
           <SocialIcon url='https://github.com/BradGulli' target='_blank'/>
         </div>
-        {children}
+        <AnimationContextProvider>
+          {children}
+        </AnimationContextProvider>
       </body>
     </html>
   )

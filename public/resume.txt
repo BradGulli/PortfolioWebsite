@@ -1,0 +1,93 @@
+Amazon, Seattle, Washington 7/2021 – present
+Software Development Engineer-ll (7/2021-present)
+Utilized AWS Lambda, AWS Step Functions, and AWS OpenSearch Service to create a k-nearest neighbors search
+engine for image searching in order to facilitate ML training data set collection for data science teams in Amazon
+Prime Video.
+Supported data science team in Amazon Prime Video by creating and maintaining useful infrastructure such as AWS
+SageMaker endpoints and the Docker images used for ML.
+Designed, implemented, and maintained asset management, software deployment, and defect detection systems for
+Amazon's Fleet Edge devices -- IoT devices fitted with multiple sensors inside of Amazon delivery vans which process
+data at the edge and communicate with the cloud.
+Designed, led, and implemented a large-scale migration of thousands of Fleet Edge devices from AWS Greengrass V1
+to AWS Greengrass V2, the core IoT software that runs on the Fleet Edge device. This migration led to a greatly
+improved and simplified deployment system, and the deprecation of old backend systems.
+Designed and implemented web UI components in React for an internal asset management system for keeping track
+of states and configurations of our multi thousand device fleet.
+Designed and led junior engineers in implementing a system utilizing AWS Lambda, AWS SNS, and AWS IoT Core, for
+vending notifications to partner teams when Fleet Edge devices receive latest deployments or move between active
+and defective states. This allowed partner teams to consume this info and run workflows according to the
+notifications.
+Implemented major portions of an Application Deployment system which allowed partner teams to deploy
+kubernetes applications to Fleet Edge devices.
+Contributed to operational excellence by improving dashboards, metrics gathering, and alarms.Improved metrics
+gathering system allowing us to process and aggregate thousands of metrics per second from thousands of devices.
+
+Tableau Software, Seattle, Washington 4/2020 – 7/2021
+Software Engineer MTS (4/2020 – 7/2021)
+Wrote well-documented, easily maintainable, and well tested Vue.js frontend and python, typescript, and C#
+backend code for the Content Experience team at Tableau.
+Built new front-end features for and maintained the pipeline for publishing technical documentation to
+help.tableau.com.
+Designed and implemented a lightweight and easily maintainable tool using node.js and AWS Lambda to generate
+sitemaps for help.tableau.com, replacing a more complicated legacy tool which only mapped part of the site,
+improving SEO. 
+Utilized Terraform to manage AWS infrastructure.
+Worked with a team of documentation writers to ensure our build and publishing pipeline stayed green, helping them
+debug issues when they arose.
+Worked on migrating away from a legacy build and deployment system with multiple manual steps that took 2 devs a
+full day, to a CI/CD pipeline with fully automated builds and deployments.
+…Continued…
+Bradley Gulli
+Page Two
+Amazon, Seattle, Washington 6/2017 – 4/2020
+Software Development Engineer-ll (10/2019 – 4/2020)
+Write well-documented, easily maintainable, and well tested React-Native Mobile frontend and backend code for the
+Alexa Shopping List on the Alexa Companion App and Amazon Mobile Shopping App.
+Partner with UI/UX designers and develop frontend aesthetics, structure, and interactivity.
+Designed and implemented a system to automatically process data privacy compliance requests, including GDPR,
+COPPA, and CCPA.
+Guided partner teams focused on multiple areas, including personalization to display speaker names on shopping list
+for items added via voice.
+Mentor newly hired engineers and familiarize more senior engineers new to the team on technology stack and
+business strategies, goals, and objectives.
+Software Development Engineer-l (4/2018 – 10/2019)
+Innovated, built, and relaunched an improved Alexa Shopping List in Amazon Shopping App.
+Designed and coded additional features built with React Native on new backend, including item categorization,
+list sharing, offline mode, and first-time user experience.
+Built scalable and extensible backend with Spring MVC and AWS technologies.
+Incorporated offline functionality that syncs user changes next time connection is established.
+Reduced load time of Alexa Shopping List by 90% to dramatically improve user experience.
+Investigated and identified root cause of high app latency.
+Rearchitected sign in flow and reduced number of network calls required to start app.
+Designed and implemented offline functionality for Alexa Shopping List
+Introduced Redux library and pattern to the team
+Designed backend API to sync data when connection is established
+Developed service enabling app notifications to customers shopping for groceries on Alexa via voice.
+Made grocery shopping on Alexa through voice possible by sending customers a mobile notification or email
+linking to their grocery carts to review before checking out.
+Designed and implemented system to aggregate grocery stores in user specified geolocations across multiple data
+providers without containing duplicates.
+Improved quality of React-Native frontend code by introducing team to Jest testing framework and Enzyme testing
+utility
+Partnered with Business Intelligence (BI) engineer to design and develop a system for publishing real-time business
+metrics on app notification delivery and open rates.
+Utilized infrastructure as code to create operational dashboards, monitors, and alarms for multiple services.
+Mentored and guided intern through full stack work and new shopping list feature development.
+Software Development Engineer, Intern (Summer, 2017)
+Wrote clean, maintainable, and well-tested code for backend services for Alexa Voice Shopping Organization aimed
+at increasing customer engagement and transforming shopping on Alexa into a usual routine.
+Created service for scheduling Alexa notifications for Echo devices
+Developed feature to send customers reminder notifications for reordering of frequently purchased consumables.
+Enabled prompt for customers shopping on Alexa to setup reorder notifications and if accepted, sent customers
+scheduled reorder notifications.
+Resolved Alexa notifications arriving on customer devices during middle of night, waking them up; service
+currently in use to make sure notification are sent during reasonable hours.
+TECHNICAL PROFICIENCIES
+Platforms: Linux, Unix, MacOS
+Tools: Python, Java, JavaScript / TypeScript, React, React Native, REST APIs, Spring Boot, Spring MVC, Git,
+Dagger, CDK, AWS Cloudformation, AWS DynamoDB, AWS S3, AWS SQS, AWS Lambda, AWS Step
+Functions, AWS Kinesis, AWS IoT, AWS OpenSearch, Jest and Enzyme, JUnit and Mockito
+Methodologies: Software Development Life Cycle, Scrum, DevOps, Database Design, Unit and Integration Testing
+EDUCATION
+Bachelor of Science in Computer Science – 2018
+California State Polytechnic University, Pomona, California

@@ -6,6 +6,8 @@ import { SocialIcon } from 'react-social-icons'
 import Image from 'next/image'
 import navigation from 'next/navigation'
 import { AnimationContextProvider } from './context/animation'
+import { Analytics } from '@vercel/analytics/react';
+
 
 export const metadata = {
   title: 'Brad Gulli',
@@ -40,6 +42,7 @@ export default function RootLayout({
         <AnimationContextProvider>
           {children}
         </AnimationContextProvider>
+        <Analytics />
       </body>
     </html>
   )

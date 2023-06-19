@@ -1,7 +1,7 @@
 import './globals.css'
 import React from 'react'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/navbar'
+import Navbar from '@/components/Navbar'
 import { SocialIcon } from 'react-social-icons'
 import Image from 'next/image'
 import navigation from 'next/navigation'

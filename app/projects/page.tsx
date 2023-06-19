@@ -1,8 +1,8 @@
-import Project from "@/components/project"
+import Project from "@/components/Project"
 export default function Projects() {
     
     return (
-        <div>
+        <div className="pb-10">
             <Project projectUrl="https://github.com/BradGulli/AlexaChannelMoverDiscordBot" projectTitle="Alexa Discord Channel Mover">
                 This project orignally began as a joke Discord bot to be used by my friends. It was called &quot;Johnny Jail Bot&quot;
                 and it&apos;s only purpose was to move our friend Johnny into a Discord channel called &quot;Johnny Jail&quot;.
@@ -17,7 +17,8 @@ export default function Projects() {
             </Project>
             <Project projectUrl="https://github.com/BradGulli/PortfolioWebsite" projectTitle="Portfolio Website">
                 The website you are looking at right now! This website serves as my porfolio, so I can share my work and the work
-                I am passionate about. I built this website using Next.js and Tailwind CSS, and deployed on Vercel.
+                I am passionate about. I built this website using Next.js and Tailwind CSS, and deployed on Vercel. This website also features an AI assistant
+                powered by OpenAI&apos;s GPT 3.5, which can answer questions about by resume. Try it out on the <a href="/resume" className="text-blue-400">Resume</a> page.
             </Project>
         </div>
         

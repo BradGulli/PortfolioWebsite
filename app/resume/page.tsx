@@ -1,41 +1,26 @@
 'use client';
 import { useChat } from 'ai/react';
-import { INITIAL_RESUME, INITIAL_DIRECTION } from './initial_message';
 import { Message } from 'ai';
+import { Chat } from '@/components/Chat';
 
 export default function Resume() {
-    const initialMessages: Message[] = [
-        {
-            role: 'system',
-            content: INITIAL_RESUME,
-            id: 'system-message' 
-        },
-        {
-           role: 'system',
-           content: INITIAL_DIRECTION,
-           id: 'system-message-direction' 
-        }
-    ]
-    const { messages, handleSubmit, input, handleInputChange} = useChat({
-        initialMessages
-    });
     return (
         <div>
-           {messages.map(m => {
-            if (m.role !== 'system') return (
-                <div key={m.id}>
-                    {m.role}: {m.content}
-                </div>
-            );
-           })}
-            <form onSubmit={handleSubmit}>
-          Ask a Question about Brad.
-          <input
-            value={input}
-            onChange={handleInputChange}
-          />
-      </form>
+            <div className="flex justify-center items-center text-gray-300 font-noto pb-4">
+            <p className="px-16 pt-4">
+                Instead of reading my resume, you can try chatting with my AI Assistant below. It will answer any questions you might have about my resume.
+                <br />
+                Try asking something like &quot;What skills does Brad have that would fit a full-stack developer role?&quot;
+            </p>
             
+        </div>
+            <div className='flex justify-center items-center pb-20'>
+                <Chat />
+            </div>
+
+            <div className="flex justify-center items-center">
+                <iframe src='BradleyGulli_Resume_2023.pdf' className="h-screen w-4/5 " />
+            </div>
         </div>
         
     );

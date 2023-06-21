@@ -40,7 +40,7 @@ const { messages, handleSubmit, input, handleInputChange} = useChat({
 });
 
   return (
-    <div className="rounded-2xl border-zinc-100  lg:border p-2 bg-white w-3/4">
+    <div className="rounded-2xl border-zinc-100  lg:border p-2 bg-white w-4/5">
       {messages.map(({ content, role }, index) => {
         if (role !== 'system') return (
           <ChatLine key={index} role={role} content={content} />
